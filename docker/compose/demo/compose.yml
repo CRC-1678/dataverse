@@ -5,7 +5,7 @@ services:
   dataverse:
     container_name: "dataverse"
     hostname: dataverse
-    image: gdcc/dataverse:alpha
+    image: gdcc/dataverse:unstable
     restart: on-failure
     user: payara
     environment:
