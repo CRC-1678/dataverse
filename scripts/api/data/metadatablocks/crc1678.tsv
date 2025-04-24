@@ -1,8 +1,8 @@
-#metadataBlock	name	dataverseAlias	displayName												
-	crc1678_metadata	CRC1678	CRC1678 Metadata Template												
+#metadataBlock	name	dataverseAlias	displayName	displayFacet												
+	crc1678_metadata	CRC1678	CRC1678 Metadata Template	CRC1678												
 #datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
 	crcProject	Project	Which project of the CRC1678 does your study belong to?	A01	text	0		TRUE	TRUE	FALSE	TRUE	TRUE	TRUE		crc1678
-	crcStudy	Study Title	A particular biological hypothesis, which you are planning to test in various ways, using various techniques, which could be experimental, informatics, modelling, or a mixture.A particular biological hypothesis, which you are planning to test in various ways, using various techniques, which could be experimental, informatics, modelling, or a mixture.	Pol2-Mutant_Validation	text	1		TRUE	TRUE	TRUE	FALSE	TRUE	TRUE		crc1678
+	crcStudy	Study Title	A particular biological hypothesis, which you are planning to test in various ways, using various techniques, which could be experimental, informatics, modelling, or a mixture.	Pol2-Mutant_Validation	text	1		TRUE	TRUE	TRUE	FALSE	TRUE	TRUE		crc1678
 	crcOrganism	Organism	Which organism your sample derives from?	Heterocephalus glaber	text	2		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1678
 	crcOtherOrganism	Other Organism	If your organism is not in the list, select “Other” and type organism name here	Heterocephalus glaber	text	3		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1678
 	crcTechnologyType	Technology Type	Technology type used (e.g. sequencing; mass spectrometry).	mciroarray	text	4		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1678
@@ -11,7 +11,7 @@
 	crcOtherMeasurmentType	Other Measurement Type	If your measaurement type is not in the list, select “Other” and type it here	Lipidome	text	7		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1678
 	crcPlatform	Technology Platform	Which technology platform was used?	MGI sequencing	text	8		TRUE	TRUE	TRUE	TRUE	TRUE	TRUE		crc1678
 	crcOtherPlatform	Other Technology Platform	If your instrument is not in the list, select “Other” and type it here	MGI sequencing	text	9		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1678
-	crcCellType	Cell Type	Which cell line does the sample come from (optional)?	displayOrder	text	10		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1678
+	crcCellType	Cell Type	Which cell line does the sample come from (optional)?	HEK293	text	10		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		crc1678
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder											
 	crcProject	A01 Beyer/Müller: Transcript quality effects of RNAPII speed variation	A01	0											
 	crcProject	A02 Beli/Papantonis: Maintaining gene expression fidelity	A02	1											
