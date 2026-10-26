@@ -1,0 +1,7 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	test		Test Basic csv
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	testFooBar	Foo Bar	Trying to get basic tsv in		text	0		FALSE	TRUE	TRUE	FALSE	TRUE	TRUE		test
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
+	testFooBar	Foo	FOO	0											
+	testFooBar	Bar	BAR	1											

@@ -1,0 +1,19 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	crc1678_sample_metadata	CRC1678	Sample-level metadata for CRC1678
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	crc1678Sample	Sample information	The metadata information of each sample (compound field)		none	0	;	TRUE	FALSE	TRUE	TRUE	TRUE	TRUE		crc1678_sample_metadata
+	crc1678SampleName	Sample name or ID	Unique sample identifier	202504_peroxide_25uM	text	1	Sample Name: #VALUE	TRUE	FALSE	FALSE	TRUE	TRUE	TRUE	crc1678Sample	crc1678_sample_metadata
+	crc1678SampleDescription	Sample description	Brief description of the sample	Ribo-SEQ - HEK cells - 5 min 25uM H2O2	text	2	Description: #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1678Sample	crc1678_sample_metadata
+	crc1678SampleTreatment	Sample treatment	Brief description of the sample treatment	none, H2O2	text	3	Treatment: #VALUE	TRUE	TRUE	TRUE	TRUE	TRUE	TRUE	crc1678Sample	crc1678_sample_metadata
+	crc1678SampleAdapters	Adapters	Adapters used for the sample	TGGAATTCTCGGGTGCCAAGG	text	4	Adapters: #VALUE	FALSE	FALSE	TRUE	TRUE	TRUE	FALSE	crc1678Sample	crc1678_sample_metadata
+	crc1678SampleRawFiles	Raw files	Raw files associated with the sample	202504_peroxide_25uM_R1.fastq.gz, 202504_peroxide_25uM_R2.fastq.gz	text	5	Raw File: #VALUE	FALSE	FALSE	TRUE	TRUE	TRUE	TRUE	crc1678Sample	crc1678_sample_metadata
+	crc1678SampleRawFilesLink	Raw files link	Link to the raw files associated with the sample	http://delivery.ccg.uni-koeln.de/downloads/NGS_24D776_hechen_DX125	text	6	Raw File Link: #VALUE	FALSE	FALSE	TRUE	TRUE	TRUE	FALSE	crc1678Sample	crc1678_sample_metadata
+	crc1678SampleProcessedFiles	Processed files	Processed files associated with the sample	202504_peroxide_25uM.bam, 202504_peroxide_25uM_counts.csv	text	7	Processed File: #VALUE	FALSE	FALSE	TRUE	TRUE	TRUE	FALSE	crc1678Sample	crc1678_sample_metadata
+	crc1678SampleBatch	Batch	Batch number of the sample (should be the same for technical replicates /resequencing of the same library)	1	text	8	Batch: #VALUE	FALSE	FALSE	FALSE	TRUE	TRUE	FALSE	crc1678Sample	crc1678_sample_metadata
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
+	crc1678SampleTreatment	None	CRC1678_TREATMENT_NONE	0											
+	crc1678SampleTreatment	H2O2	CRC1678_TREATMENT_H2O2	1
+	crc1678SampleTreatment	UV	CRC1678_TREATMENT_UV	2
+	crc1678SampleTreatment	CHX	CRC1678_TREATMENT_CYCLOHEXIMIDE	3
+	crc1678SampleTreatment	Harr	CRC1678_TREATMENT_HARRINGTONINE	4
+	crc1678SampleTreatment	Other	CRC1678_TREATMENT_OTHER	5
